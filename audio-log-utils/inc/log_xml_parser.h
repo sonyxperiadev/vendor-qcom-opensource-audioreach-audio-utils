@@ -22,7 +22,9 @@ extern "C" {
 #include <expat.h>
 #include <fcntl.h>
 
+#ifndef LOG_XML_PATH
 #define LOG_XML_PATH "/data/vendor/audio/audio_dynamic_log.xml"
+#endif
 
 #define BUF_SIZE 1024
 
